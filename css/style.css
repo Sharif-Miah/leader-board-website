@@ -16,7 +16,7 @@ body {
 .container {
     width: 870px;
     background-color: #fff;
-    padding: 30px;
+    padding: 60px 30px;
     border-radius: 7px;
 }
 
@@ -157,6 +157,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: 35px;
+    /* padding-bottom: 50px; */
 
 }
 
@@ -226,4 +227,32 @@ hr {
 
 .rate {
     margin-right: 5px;
+}
+
+/*------------ Footer section------------  */
+.footer {
+    padding: 60px 0;
+    background-color: #562EFF;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.footer-content .social-icon i {
+    font-size: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
 }
