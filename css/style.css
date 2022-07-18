@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #562EFF;
+}
+
+.nav {}
+
+.navbar {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 5px;
+}
+
+.leader-icon {
+    display: flex;
+}
+
+.leader-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-text {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* MENU BAR STYLE  */
+
+.menu-var {
+    display: flex;
+}
+
+.menu-var ul {
+    display: flex;
+}
+
+.menu-var ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.menu-var>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.player-name a img {
+    margin-top: -10px;
+}
+
+/* MAIN SECTION  */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+
+}
+
+.container {
+    width: 870px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.player-heading {
+    color: #562EFF;
+    margin-bottom: 33px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 10px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 33px;
+}
+
+/* BLOG SECTION  */
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-item {
+    display: flex;
+    margin: 19px;
+}
+
+.blog-item img {
+    width: 177px;
+    width: 177px;
+}
+
+.blog-text {
+    margin-left: 16px;
+}
+
+.blog-text h3 {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+.blog-text p {
+    color: #562EFF;
+}
+
+.blog-text p span {
+    color: #9F9F9F;
+}
