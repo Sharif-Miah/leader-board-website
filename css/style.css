@@ -29,8 +29,6 @@ header {
     background-color: #562EFF;
 }
 
-
-
 .navbar {
     width: 870px;
     display: flex;
@@ -255,4 +253,86 @@ hr {
     margin-right: 10px;
     cursor: pointer;
     color: #fff;
+}
+
+/*------------Media Query SECTION-----------*/
+
+@media screen and (max-width: 480px) {
+
+    /*------ media Query in Menu bar-------*/
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-var {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .menu-var ul {
+        margin-left: 42px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*---------Main section-------*/
+    main {
+
+        margin-top: 0px;
+    }
+
+    .container {
+        width: 100%;
+        background-color: #fff;
+        padding: 60px 30px;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .blog-content {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-text {
+        margin-top: 15px;
+    }
+
+    /* Course section  */
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .course-item {
+        margin-bottom: 25px;
+    }
+
+    .footer-content h2 {
+        font-size: 22px;
+    }
+
+    .footer-content p {
+        font-size: 16px;
+    }
 }
